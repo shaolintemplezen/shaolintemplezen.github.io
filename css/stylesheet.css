@@ -1,0 +1,70 @@
+body {
+	text-align: center;
+  font-family: 'Catamaran', sans-serif;
+	/*font-family: sans-serif;*/
+  background-image: url("../assets/goldenyellow_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  background-attachment: fixed;
+	/*background-color: #ffcc66;*/
+}
+
+
+@media all and (max-width: 900px) {
+  body {
+    background-image: url("../assets/goldenyellow_bg.jpg");
+    background-repeat: no-erpeat;
+    background-size: auto 100%;
+    background-position: center;
+    background-attachment: fixed;  
+  }
+}
+
+@media all and (max-width: 700px) {
+  body {
+    background-image: url("../assets/goldenyellow_web_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+
+@media all and (max-height: 700px) {
+  body {
+    background-image: url("../assets/goldenyellow_web_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+
+/*
+.nav >li {
+  text-align: center;
+}*/
+
+p {
+	/*text-align: left;*/
+}
+
+.about-us {
+  text-align: left;
+}
+
+#masters-div {
+  display: inline-block;
+  text-align: right;
+}
+
+
+#googleMaps {
+  display: inline-block;
+  margin: auto;
+}
+
+.icon-bar {
+  background-color: #888;
+}

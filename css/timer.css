@@ -1,0 +1,43 @@
+
+/*
+#timer-row {
+	white-space: nowrap;
+}*/
+
+.timer-text {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+#title-text {
+	color: #000;
+}
+
+
+#clockdiv {
+	/*text-align: center;*/
+    /*font-family: sans-serif;*/
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#clockdiv div > div{
+    padding: 15px;
+    border-radius: 8px;
+    background: #800010;
+    display: inline-block;
+}
+
+.days,.hours,.minutes,.seconds {
+	color: #fff;
+	/*background: #000;*/
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+}
