@@ -7,8 +7,10 @@ body {
   background-size: 100% auto;
   background-position: center;
   background-attachment: fixed;
-	/*background-color: #ffcc66;*/
+	background-color: #ffdf00;
 }
+
+
 
 
 @media all and (max-width: 900px) {
@@ -21,7 +23,7 @@ body {
   }
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 770px) {
   body {
     background-image: url("../assets/goldenyellow_web_bg.jpg");
     background-repeat: no-repeat;
@@ -38,6 +40,19 @@ body {
     background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
+  }
+}
+
+@media all {
+  #intro-header {
+    height: 400px;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  #intro-header {
+    height:200px;
   }
 }
 
@@ -68,3 +83,7 @@ p {
 .icon-bar {
   background-color: #888;
 }
+
+/*#intro-header {
+  height: 500px;
+}*/
