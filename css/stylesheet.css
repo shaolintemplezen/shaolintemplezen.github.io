@@ -99,6 +99,17 @@ p {
   background-color: #888;
 }
 
+#footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 4rem;
+  /*background-color: #efefef;*/
+  text-align: center;
+  font: inherit;
+}
+
 /*#intro-header {
   height: 500px;
 }*/
