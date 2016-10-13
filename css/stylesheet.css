@@ -110,6 +110,6 @@ p {
   font: inherit;
 }
 
-/*#intro-header {
-  height: 500px;
-}*/
+#intro-header {
+ color: #ffffff;
+}
