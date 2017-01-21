@@ -47,6 +47,26 @@
 		</div>
 	</div>
 
+<div id="temporary data" class="jumbotron">
+	<p>Data from albums</p>
+	<script type="text/javascript">
+		var dir = "./albums/";
+		// var fileextension = ".png";
+		$.ajax({
+		    //This will retrieve the contents of the folder if the folder is configured as 'browsable'
+		    url: dir,
+		    success: function (data) {
+		        //List all .png file names in the page
+		        $(data).find("a:contains(.jpg)").each(function () {
+		            var filename = this.href.replace(window.location, "").replace("http://", "");
+								console.log(filename);
+		            // $("body").append("<img src='" + dir + filename + "'>");
+		        });
+		    }
+		});
+	</script>
+</div>
+
 
 	<a name="about"></a>
 	<div class="jumbotron">
@@ -73,9 +93,9 @@
 				    <li>Shaolin wellness qigong</li>
 				  </ul>
 				<p><i>*Accepting students of all ages and experience levels.</i></p>
-			
 
-			</div>			
+
+			</div>
 		</div>
 	</div>
 	<a name="meetus"></a>
@@ -83,7 +103,7 @@
 		<div class="container">
 			<div class="meet-us">
 				<h1>Shaolin Masters</h1>
-				
+
 				<div class="row">
 					<div class="col-sm-5 col-md-6">
 						<div class="thumbnail">
@@ -104,7 +124,7 @@
 						</div>
 					</div>
 				</div>
-			</div>		
+			</div>
 		</div>
 	</div>
 
@@ -157,7 +177,7 @@
 				  </a>
 				</div>
 
-			</div>			
+			</div>
 		</div>
 	</div>
 
@@ -177,14 +197,14 @@
 					Saturday - Sunday: <i>11:00am - 3:00pm</i>
 				</p>
 
-				<div id="googleMaps" style="overflow:hidden;width:300px;height:300px;resize:none;max-width:100%;"><div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=8785+Center+Parkway+Suite+B310,+Sacramento,+CA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-maps-code" rel="nofollow" href="https://www.hostingreviews.website/compare/hostgator-vs-bluehost" id="get-data-for-map">bluehost vs hostgator</a><style>#google-maps-canvas img{max-width:none!important;background:none!important;}</style></div><script src="https://www.hostingreviews.website/google-maps-authorization.js?id=cad79cbf-6f52-d156-7d2a-1e451f65c927&c=google-maps-code&u=1470354573" defer="defer" async="async"></script>
+				<!-- <div id="googleMaps" style="overflow:hidden;width:300px;height:300px;resize:none;max-width:100%;"><div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=8785+Center+Parkway+Suite+B310,+Sacramento,+CA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-maps-code" rel="nofollow" href="https://www.hostingreviews.website/compare/hostgator-vs-bluehost" id="get-data-for-map">bluehost vs hostgator</a><style>#google-maps-canvas img{max-width:none!important;background:none!important;}</style></div><script src="https://www.hostingreviews.website/google-maps-authorization.js?id=cad79cbf-6f52-d156-7d2a-1e451f65c927&c=google-maps-code&u=1470354573" defer="defer" async="async"></script> -->
 				<br/>
 				<br/>
 
 				<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>  (916) 426-6207</p>
 				<p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  <a href="mailto:shaolintemplezen@gmail.com"> shaolintemplezen@gmail.com</a></p>
 				<!-- Facebook https://www.facebook.com/shaolinkungfuzenacademy -->
-				<!-- Yelp https://www.yelp.com/biz/shaolin-temple-kungfu-zen-academy-sacramento --> 
+				<!-- Yelp https://www.yelp.com/biz/shaolin-temple-kungfu-zen-academy-sacramento -->
 				<div class="icons">
 					<a href="https://www.facebook.com/shaolinkungfuzenacademy">
 						<i class="fa fa-facebook fa-2x"></i>
@@ -193,7 +213,7 @@
 						<i class="fa fa-yelp fa-2x"></i>
 					</a>
 				</div>
-			</div>		
+			</div>
 		</div>
 	</div>
 
